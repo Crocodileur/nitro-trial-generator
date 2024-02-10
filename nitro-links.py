@@ -80,6 +80,12 @@ headerz = {
 
 id_or = {'partnerUserId': 'd105bab7abd2c5794e0cedd7a2cc4f256c1b307ccb771adc3e3951f05d897893'}
 
+input('Package are going to be installed...\n Press enter to continue')
+os.system('pip install requests')
+os.system('pip install uuid')
+os.system('pip install shutil')
+os.system('pip install termcolor')
+
 while True:
     amount = input_centered('Welcome on Croco\'s Nitro Trial Generator.\nPlease enter the desired amount of links : ')
     print('Links will be stored in the \'codes.txt\' file...')
